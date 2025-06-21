@@ -21,7 +21,53 @@
                 </div>
                 <h1>Formulário de matrícula</h1>
                 <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+
+                <form enctype="multipart/form-data">
+                    <fieldset class="child-info">
+                        <legend>Informações da Criança</legend>
+
+                        <div class="input-wrapper">
+                            <label for="fullname">Nome completo</label>
+                            <input 
+                                id="fullname"
+                                type="text"
+                                placeholder="Lorenzo Jorge">
+                        </div>
+                        
+                        <div class="input-wrapper">
+                            <label for="birthday">Data de nascimento</label>
+                            <input 
+                            id="birthday"
+                            type="date"
+                            lang="pt-BR">
+                        </div>
+
+                        <div class="select-wrapper">
+                            <label for="gender">Sexo</label>
+                            <select id="gender">
+                                <option value="male">Masculino</option>
+                                <option value="female">Feminino</option>
+                                <option value="na">Prefiro não responder</option>
+                            </select>
+                        </div>
+
+                        <div class="textarea-wrapper">
+                            <label for="medical-info">Informações médicas</label>
+                            <textarea id="medical-info" cols="30" rows="10" placeholder="A criança possui alguma condição médica que a escola precisa estar ciente? EX: alergia a glúten"></textarea>
+                        </div>
+
+                        <div class="droparea-wrapper">
+                            <input type="file" id="birth-file">
+                            <img src="assets/icons/cloud-upload.svg" alt="">
+                            <p>
+                                Clique aqui para <br>
+                                selecionar arquivos
+                            </p>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
+
         </main>
 
         <aside>
