@@ -60,5 +60,8 @@ select {
 input {
     &[disabled] {
         background-color: var(--surface-disabled);
+
+        border: 1px solid var(--stroke-default);
+        color: var(--text-primary);
     }
 }
