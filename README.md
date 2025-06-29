@@ -30,6 +30,40 @@ Você pode visualizar o site publicado via GitHub Pages clicando no link abaixo:
 - Git e GitHub
 - GitHub Pages para deploy
 
+
+## 📁 Estrutura do projeto
+projeto-formulario-de-matricula/
+├── index.html                  # Arquivo principal com o formulário e layout completo
+
+├── assets/
+
+│  
+
+└── style/
+
+    ├── forms.css             # Estilo base para formulários (fieldset, legend)
+
+    ├── global.css            # Estilos gerais, reset e variáveis CSS
+
+    ├── index.css             # Arquivo principal que importa todos os módulos
+
+    ├── layout.css            # Estilo para a main e o aside
+    
+    └── fields/
+
+        ├── buttons.css           # Estilo para botões de envio e ações do formulário
+
+        ├── checkbox.css          # Estilização personalizada para checkboxes
+
+        ├── droparea.css          # Estilização da área de upload de arquivos
+
+        ├── index.css             # Arquivo principal que importa todos os módulos dentro da pasta fields/
+
+        ├── input.css             # Estilização de campos de texto, selects e datepickers
+
+        └── radio.css             # Estilização personalizada para radio buttons
+
+
 ---
 
 Desenvolvido por [Lorenzo Jorge](https://github.com/llorenzojorge) 💻
