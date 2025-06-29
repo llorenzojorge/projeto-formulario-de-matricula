@@ -36,9 +36,7 @@ projeto-formulario-de-matricula/
 
 ├── index.html                  # Arquivo principal com o formulário e layout completo
 
-├── assets/
-
-│  
+├── assets/ 
 
 └── style/
 
