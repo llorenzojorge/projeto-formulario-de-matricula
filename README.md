@@ -33,6 +33,7 @@ Você pode visualizar o site publicado via GitHub Pages clicando no link abaixo:
 
 ## 📁 Estrutura do projeto
 projeto-formulario-de-matricula/
+
 ├── index.html                  # Arquivo principal com o formulário e layout completo
 
 ├── assets/
